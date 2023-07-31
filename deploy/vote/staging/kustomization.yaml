@@ -15,3 +15,10 @@ images:
     newTag: v4
 
 namespace: instavote
+
+commonLabels:
+  project: instavote
+  env: staging
+
+commonAnnotations:
+  supported-by: "sre@example.com"
