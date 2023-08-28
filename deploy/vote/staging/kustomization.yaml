@@ -7,6 +7,7 @@ replicas:
   name: vote
 images:
 - name: schoolofdevops/vote
+  newName: artieua/vote
   newTag: main-ea27db5a-1691501594 # {"$imagepolicy": "flux-system:vote:tag"}
 namespace: instavote
 commonAnnotations:
